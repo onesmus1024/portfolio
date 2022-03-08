@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ||navbar style */
+.navbar{
+    /* background-color: purple; */
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    background-color: rgb(248, 197, 248);
+    
+}
+.navbar.scroll1{
+    background-color: rgb(248, 197, 248);
+    display: none;
+}
+.navbar.scroll1 .menu li a{
+    color: blue;
+}
+.max-width{
+    max-width: 1300px;
+    
+}
+.navbar .max-width{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .max-width .brand{
+    font-size: 25;
+}
+.navbar .menu li a{
+    color: green;
+    text-decoration: none;
+    font-size: 20;
+    
+}
+
+.navbar .menu li{
+    display: inline;
+    padding-right: 30px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(148, 144, 144, 0.63);
+}
+.container:nth-child(odd){
+    background-color: white;
+}
+
+.home{
+    padding-top: 75px;
+    background-image: url("images/photo-1496181133206-80ce9b88a853.jpeg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+/* all sections*/
+.container .about,.services,.skills,.contact{
+    display: flex;
+    column-count: 2;
+    justify-items: center;
+    padding: 10%;
+}
+
+/* Skills section sy */
+.container .skills .skill hr{
+    border-width: 2px; 
+    border-color: orangered;
+    width: 500px;
+}
+.percent{
+    float: right;
+}
+.heading{
+    text-align: center;
+}
+
+.fa-solid{
+    color: red;
+    font-size: 50px;
+}
+.about-image{
+    width: 50%;
+}
+img{
+    border-radius: 50%;
+    width: 100;
+    height: 100;
+    vertical-align: middle;
+}
